@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+:root {
+	--White: hsl(0, 0%, 100%);
+	--Black: hsl(0, 0%, 0%);
+	--Dark-Gray: hsl(0, 0%, 55%);
+	--Very-Dark-Gray: hsl(0, 0%, 41%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 15px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.header {
+	color: white;
+	display: block;
+	padding: .5rem 1rem;
+	text-decoration: none;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+	font-family: 'Alata', sans-serif;
+}
+
+.banner {
+	background: url('./images/desktop/image-hero.jpg') no-repeat center/cover;
+	height: 100vh;
+}
+
+.bannerText h1 {
+	margin-left: 4em;
+	color: white;
+	border: 2px solid white;
+	font-size: 5rem;
+	font-family: 'Josefin Sans', sans-serif;
+	line-height: 70px;
+	text-transform: uppercase;
+	width: 700px;
+	height: 290px;
+
+}
+
+.midsection {
+	margin-top: 151px;
+	width: 1111px;
+	height: 500px;
+	
+}
+
+.middle {
+	width: 541px;
+	height: 317px;
+	background-color: white;
+	margin-right: 175px;
+}
+
+.middle h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+.middle p {
+	font-family: 'Alata', sans-serif;
+	font-weight: 400;
+	color: var(--Very-Dark-Gray);
+}
+
+.middleText {
+	margin: 96px 0 0 96px;
+}
+
+.gridText h2{
+	bottom: 20px;
+
+}
+
+.creationsGrid {
+	margin-top: 208px;
+}
+
+.gridImg {
+	margin-top: 80px;
+}
+
+.footer {
+	height: 160px;
+	padding-top: 40px;
+}
+
+.footerLink {
+	color: white;
+	display: block;
+	padding: 0;
+	text-decoration: none;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+	font-family: 'Alata', sans-serif;
+}
